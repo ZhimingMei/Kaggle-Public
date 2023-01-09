@@ -20,7 +20,7 @@ Predict monthly microbusiness density in a given area.
 ## Evaluation Method
 We use **symmetric mean absolute percentage error**, which is an accuracy measure based on percentage error.
 
-$\text{SMAPE} = \frac{100\%}{n}\sum_{t=1}^n \frac{|F_t-A_t|}{(|A_t|+|F_t|)/2}$
+$\text{SMAPE} = \frac{100\%}{n}\Sigma_{t=1}^n \frac{|F_t-A_t|}{(|A_t|+|F_t|)/2}$
 
 where, $A_t$ is the actual value and $F_t$ is the forecast value.
 
